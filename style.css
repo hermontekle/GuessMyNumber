@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 52.5%;
   box-sizing: border-box;
 }
 
@@ -44,6 +44,9 @@ main {
 .right {
   width: 52rem;
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ELEMENTS STYLE */
@@ -72,13 +75,13 @@ h1 {
 
 .between {
   font-size: 1.4rem;
-  /* position: absolute; */
+  position: absolute;
   top: 2rem;
   right: 2rem;
 }
 
 .again {
-  /* position: absolute; */
+  position: absolute;
   top: 2rem;
   left: 2rem;
 }
@@ -123,10 +126,15 @@ h1 {
   /* body {
     /* background-color: rgb(48, 156, 192);
     background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg); */
-  } */
-  .between,
-  .again,
-  .logo {
+  .between {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .again {
+    margin-top: 10px;
+    position: relative;
     padding: 2rem;
     margin-top: 1.5rem;
   }
@@ -134,5 +142,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .left-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    padding: 2rem;
+    margin-top: 1.5rem;
   }
 }

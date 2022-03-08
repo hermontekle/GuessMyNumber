@@ -14,8 +14,8 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
-  /* background-color: rgb(47, 85, 99); */
+  background-color: rgb(19, 37, 62);
+  /* background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg); */
   /* background-color: #60b347; */
 }
 
@@ -120,10 +120,10 @@ h1 {
 }
 
 @media only screen and (max-width: 580px) {
-  body {
-    /* background-color: rgb(48, 156, 192); */
-    background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
-  }
+  /* body {
+    /* background-color: rgb(48, 156, 192);
+    background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg); */
+  } */
   .between,
   .again,
   .logo {

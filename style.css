@@ -14,8 +14,9 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
-  /* background-color: rgb(19, 37, 62); */
+  background-color: rgb(19, 37, 62);
+  overflow-x: hidden;
+  /* background-image: url(/img/ivana-cajina-asuyh-_ZX54-unsplash.jpg); */
   /* background-color: #60b347; */
 }
 
